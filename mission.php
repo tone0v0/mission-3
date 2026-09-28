@@ -13,7 +13,9 @@ echo "=== 潜水艇管制 ===\n";
 usleep(500000);
 // ==========================================
 // 【指示】下の1行を各自の引数に追加せよ！
-// 担当A: executeEmergencySurfacing("VALVE_OPEN", "");
+executeEmergencySurfacing("VALVE_OPEN", "");
 // 担当B: executeEmergencySurfacing("", "BALLAST_PURGE");
+// 担当A: executeEmergencySurfacing("VALVE_OPEN", "");
+executeEmergencySurfacing("VALVE_OPEN", "BALLAST_PURGE");
 executeEmergencySurfacing("", "");
 // ==========================================
